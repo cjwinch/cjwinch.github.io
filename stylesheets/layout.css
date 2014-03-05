@@ -301,6 +301,11 @@ nav ul li {
 	margin: 0;
 }
 
+nav ul li:last-child {
+	background: #1FAF04; 
+	margin: -3px;
+}
+
 nav ul li:first-child {
 	border-left: 1px solid #e6e6e6;
 }
@@ -324,6 +329,7 @@ nav a:hover {
 
 
 
+
 /* #Intro
 ================================================== */
 
@@ -340,7 +346,7 @@ nav a:hover {
 	background: url(../images/groupphoto_rez.jpg);
 	background-repeat: no-repeat ;
 	background-attachment: fixed;
-	
+
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
@@ -383,6 +389,7 @@ nav a:hover {
 	position: relative;
 	z-index: 150;
 	text-align: center;
+	margin-bottom:60px;
 }
 
 .social-intro ul li {
@@ -398,6 +405,35 @@ nav a:hover {
 	opacity: 1;
 }
 
+#intropara {
+	background: #fff;
+	position: relative;
+	z-index: 300;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+p.mid-text {
+	margin-top: 40px;
+}
+
+.portfolio {
+	text-align: center;
+	margin-top: 40px;
+}
+
+p.proj-title {
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #d3d3d3;
+	text-transform: uppercase;
+}
+
+p.proj-desc {
+	margin-bottom: 35px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #d3d3d3;
+}
+
 /* #lillan
 ================================================== */
 
@@ -407,8 +443,8 @@ nav a:hover {
 	z-index: 300;
 	padding-top: 20px;
 	padding-bottom: 40px;
-	-webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.9);
-	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.9);
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.9);
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.9);
 }
 
 
